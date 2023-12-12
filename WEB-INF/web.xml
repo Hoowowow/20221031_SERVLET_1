@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!-- 특정페이지에 접근하려면 로그인 수행 -->
+<web-app>
+	<security-role>
+		<description></description >
+		<role-name>admin</role-name>
+	</security-role>
+	<security-constraint>
+		<display-name>WebMarket Security_01</display-name>
+		<web-resource-collection>
+			<web-resource-name>WebMarket</web-resource-name>
+			<description></description>
+				<url-pattern>/admin/product_add.jsp</url-pattern>
+            	<url-pattern>/admin/index_ad.jsp</url-pattern>
+            	<url-pattern>/admin/product_edit.jsp</url-pattern>
+
+            <!-- admin/product_add.jsp 에 대한 보안 접근 설정 -->
+		</web-resource-collection>
+		<auth-constraint>
+			<description>권한 관리자명</description>
+			<role-name>admin</role-name>
+		</auth-constraint>
+	</security-constraint>
+	<login-config>
+		<auth-method>FORM</auth-method>
+		<form-login-config>
+			<form-login-page>/login/login.jsp</form-login-page>
+			<form-error-page>/login/login_failed.jsp</form-error-page>
+            <!-- 로그인 폴더에 login.jsp로 인증받도록 설정 -->
+		</form-login-config>
+	</login-config>
+    
+    <error-page>
+        <error-code>404</error-code>
+        <location>/main_server_downtime.jsp</location>
+    </error-page>
+</web-app>
+
