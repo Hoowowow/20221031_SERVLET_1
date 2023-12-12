@@ -22,6 +22,7 @@
 <p>
 <img width="909" alt="장바구니" src="https://github.com/Hoowowow/20221031_SERVLET_1/assets/149292359/8e532e42-70f3-4234-a78c-2fbba3b6e570">
 </p>
+
 ### 23년 11월 8일 : 쇼핑몰 주문 처리 페이지 추가
       - 주문시 배송일 오늘날짜 이후로 선택 / 국가 설정 / 주소 검색해서 추가할 수 있게 기능 추가
 <p>
@@ -29,6 +30,7 @@
 <img width="909" alt="국가" src="https://github.com/Hoowowow/20221031_SERVLET_1/assets/149292359/6712d237-f914-4fea-9f03-4901cc2e1ae8">
 <img width="996" alt="주소" src="https://github.com/Hoowowow/20221031_SERVLET_1/assets/149292359/04607675-f893-4df9-9970-1bb9efac90fc">
 </p>
+
 ### 23년 11월 15일 : 쇼핑몰 상품 관리 페이지 추가
 
 ### 23년 11월 22일 : 쇼핑몰 상품 수정/삭제 페이지 추가
