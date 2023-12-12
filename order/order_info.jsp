@@ -44,6 +44,22 @@
         </select>
       </div>
     </div>
+        <!-- 주소 검색 버튼 -->
+    <input type="button" onclick="sample6_execDaumPostcode()" value="우편번호 찾기">
+    <br><br>
+    <div class="form-group row">
+       <label class="col-sm-2">우편번호</label>
+       <div class="col-sm-3">
+          <input name="zipCode" id="sample4_postcode" type="text" class="form-control" />
+       </div>
+    </div>
+
+    <div class="form-group row">
+       <label class="col-sm-2">주소</label>
+       <div class="col-sm-5">
+          <input name="addressName" id="sample4_address" type="text" class="form-control" />
+       </div>
+    </div>
     <!-- 주소가져오기 -->
     <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
     <script>
